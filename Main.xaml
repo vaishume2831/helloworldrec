@@ -78,7 +78,7 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,711" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Default="[age]" Name="variable1" />
+      <Variable x:TypeArguments="x:String" Name="age" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -90,7 +90,7 @@
     <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
     <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="354,262" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="enter age" Title="rec">
       <ui:InputDialog.Result>
-        <OutArgument x:TypeArguments="x:Object">[age]</OutArgument>
+        <OutArgument x:TypeArguments="x:String">[age]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
   </Sequence>
