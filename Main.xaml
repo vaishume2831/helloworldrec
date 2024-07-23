@@ -109,6 +109,6 @@
         <OutArgument x:TypeArguments="x:String">[age]</OutArgument>
       </ui:InputDialog.Result>
     </ui:InputDialog>
-    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="Delay_4" />
+    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="Delay_5" />
   </Sequence>
 </Activity>
